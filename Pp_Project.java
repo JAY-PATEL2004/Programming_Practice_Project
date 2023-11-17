@@ -11,8 +11,8 @@ public class Pp_Project {
                     String e_id = sc.next();
                     int mainFlag = 0;
                     try {
-                    String a = "Manage.txt";
-                    String b = "Test.txt";
+                    String a = "Database\\Manage.txt";
+                    String b = "Database\\Test.txt";
                     FileReader fr = new FileReader(a);
                     BufferedReader br = new BufferedReader(fr);
                     String line = null,newline = null;
@@ -138,8 +138,8 @@ public class Pp_Project {
                     fw.close();
                     br2.close();
 
-                    a = "Manage.txt";
-                    b = "Test.txt";
+                    a = "Database\\Manage.txt";
+                    b = "Database\\Test.txt";
                     FileReader fr3 = new FileReader(b);
                     BufferedReader br3 = new BufferedReader(fr3);
                     FileWriter fw3 = new FileWriter(a);
